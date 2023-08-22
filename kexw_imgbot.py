@@ -355,7 +355,7 @@ def handle_user_message(from_uid, webtext):
                                (imageRatio, width, height, from_uid))
                 db.commit()
                 USER_STATE[from_uid] = 'init'
-                bot_message = '# 已设置完成默认参数\n如需修改，请发送 : \n1. 修改模型方向\n1. 修改采集器选项\n1. 修改图片比例\n\n### 生成图片格式 \n#### `图片的关键词`|`负面关键词`|`输入文本强度。默认可以7上限15`|`输入步数默认可以20（生成图片的步数） `|`输入照片模式0.普通，1.高清`|`输入生成的张数，默认。如果照片模式是高清，这里只能输入2,如果是普通无上限`\n\n## 长着翅膀的乌龟，在云层里面游泳|乌龟在河里|7|20|高清|2'
+                bot_message = '# 已设置完成默认参数\n如需修改，请发送 : \n1. 修改模型方向\n1. 修改采集器选项\n1. 修改图片比例\n\n### 生成图片格式 \n#### `图片的关键词`|`负面关键词`|`输入文本强度。默认可以7上限15`|`输入步数默认可以20（生成图片的步数） `|`输入照片模式0.普通，1.高清`|`输入生成的张数，默认。如果照片模式是高清，这里只能输入2,如果是普通无上限`\n\n## 花里长着小猫的花朵，动物|正常的花朵|7|20|高清|2'
                 requests.post(f"{kexw_boturl}/api/bot/send_to_user/" + str(from_uid),
                               data=bot_message.encode('utf-8'), headers=headers)
             return
