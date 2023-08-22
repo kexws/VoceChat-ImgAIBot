@@ -163,6 +163,7 @@ def create_table():
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
+    return "Hello, this is a GET request!"
     try:
         create_table()  # 创建数据库表格
         data = request.get_json()
@@ -495,4 +496,4 @@ def handle_user_message(from_uid, webtext):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5321, debug=True)
