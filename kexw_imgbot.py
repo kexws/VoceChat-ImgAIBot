@@ -163,7 +163,6 @@ def create_table():
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
-    return "Hello, this is a GET request!"
     try:
         create_table()  # 创建数据库表格
         data = request.get_json()
