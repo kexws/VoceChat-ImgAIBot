@@ -10,8 +10,8 @@ AIimgbot
 
 ```bash
 pip install flask pymysql requests
-
+```
 ## 运行脚本
 ```bash
 python fixed_optimized_kexw_imgbot.py
-
+```
