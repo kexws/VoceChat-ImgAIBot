@@ -11,6 +11,32 @@
 ```bash
 pip install flask pymysql requests
 ```
+###修改kexw_imgbot里面的默认参数
+
+# 需要修改的配置
+```bash
+ # 机器人的 UID
+BOT_UID = 4
+ #ai图片网站 
+kexw_url = "https://rightbrain.art"
+ #ai图片网站cookies
+cookies_list = [
+    "satoken=xxxxx; token=xxxxx",
+    "satoken=xxxxx; token=xxxxx " ]
+ #VoceChat地址
+kexw_boturl = "http://127.0.0.1:3009"
+ #VoceChat Bot的key
+kexw_key = " Bot的key"
+ #VoceChat 管理员的key 
+kexw_sudokey = "管理员的key"
+#mysql
+kexw_host = "127.0.0.1"
+kexw_user = "账号"
+kexw_password = "数据库账号密码"
+kexw_port = 3306  #数据库端口默认3306
+kexw_database = "数据库账号"
+# 需要修改的配置
+```
 ### 运行脚本
 ```bash
 python fixed_optimized_kexw_imgbot.py
@@ -27,4 +53,4 @@ python fixed_optimized_kexw_imgbot.py
 ### 生成图片格式 
 #### `图片的关键词`|`负面关键词`|`输入文本强度。默认可以7上限15`|`输入步数默认可以20（生成图片的步数） `|`输入照片模式0.普通，1.高清`|`输入生成的张数，默认。如果照片模式是高清，这里只能输入2,如果是普通无上限`
 
-### 长着翅膀的乌龟，在云层里面游泳|乌龟在河里|7|20|高清|2
+### 花里长着小猫的花朵，动物|正常的花朵|7|20|高清|2
