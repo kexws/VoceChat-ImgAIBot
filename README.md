@@ -3,7 +3,39 @@
 ## 开始之前
 
 确保您的计算机上已经安装了 Python。如果没有，请访问 [Python 官网](https://www.python.org/) 下载并安装。
+## 2. 安装 virtualenv（可选）
 
+在 Python 3.3 及以后的版本中，您可以使用 venv 模块创建虚拟环境。如果您使用的是较早版本的 Python，您可以通过以下命令安装 virtualenv：
+
+```bash
+pip install virtualenv
+```
+###创建虚拟环境
+打开命令行终端，并导航到您希望创建虚拟环境的目录。然后运行以下命令，其中 myenv 是您希望为虚拟环境命名的名称：
+
+对于 Python 3.3 及更高版本（使用 venv）：
+
+```bash
+python -m venv myenv
+```
+对于使用 virtualenv：
+
+```bash
+virtualenv myenv
+```
+###激活虚拟环境
+激活虚拟环境将更改您当前的命令行环境，以便在其中安装和运行项目特定的依赖项。在命令行中运行以下命令：
+
+对于 Windows：
+
+```bash
+myenv\Scripts\activate
+```
+对于 macOS 和 Linux：
+
+```bash
+source myenv/bin/activate
+```
 ### 安装依赖
 
 在开始之前，请确保您已经安装了所有必要的库。您可以使用以下命令一键安装所有依赖：
