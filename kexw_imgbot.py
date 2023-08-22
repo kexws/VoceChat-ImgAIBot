@@ -30,8 +30,8 @@ cookies_list = [
 kexw_boturl = "http://127.0.0.1:3009"
  #VoceChat Bot的key
 kexw_key = " Bot的key"
- #VoceChat 管理员的key 
-kexw_sudokey = "管理员的key"
+ #VoceChat 管理员的Token 
+kexw_sudokey = "管理员的Token"
 #mysql
 kexw_host = "127.0.0.1"
 kexw_user = "账号"
