@@ -13,8 +13,8 @@ pip install flask pymysql requests
 ```
 ###修改kexw_imgbot里面的默认参数
 
-# 需要修改的配置
 ```bash
+# 需要修改的配置
  # 机器人的 UID
 BOT_UID = 4
  #ai图片网站 
