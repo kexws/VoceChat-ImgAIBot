@@ -41,7 +41,11 @@ kexw_database = "数据库账号"
 ```bash
 python fixed_optimized_kexw_imgbot.py
 ```
-以上地址都是本地运行的地址，在voce的BOT设置页面填入对应的地址，http://127.0.0.1:5000/webhook应该能够进行通信了，如果网站和webhook的服务器不是同一台，手机反代即可
+以上地址都是本地运行的地址，在voce的BOT设置页面填入对应的地址，
+```bash
+http://127.0.0.1:5000/webhook
+```
+应该能够进行通信了，如果网站和webhook的服务器不是同一台，手机反代即可
 
 ## 功能
 通过数据库储存用户默认参数
