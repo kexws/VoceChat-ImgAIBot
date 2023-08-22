@@ -39,7 +39,7 @@ kexw_database = "数据库账号"
 ```
 ### 运行脚本
 ```bash
-python fixed_optimized_kexw_imgbot.py
+python kexw_imgbot.py
 ```
 以上地址都是本地运行的地址，在voce的BOT设置页面填入对应的地址，
 ```bash
