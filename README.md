@@ -1,4 +1,4 @@
-# VoceChat_文生图ai机器人演示
+# VoceChat_文生图机器人演示
 
 ## 开始之前
 
