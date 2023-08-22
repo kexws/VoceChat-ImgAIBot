@@ -1,5 +1,5 @@
-# VoceChat_ImgAIBot
-文生图ai机器人演示
+# VoceChat_文生图ai机器人演示
+
 ## 开始之前
 
 确保您的计算机上已经安装了 Python。如果没有，请访问 [Python 官网](https://www.python.org/) 下载并安装。
